@@ -1,0 +1,30 @@
+.follower-container {
+    display: flex;
+    gap: 12px;
+    padding: 4px;
+    margin: 8px;
+    max-width: 220px;
+    border: 1px solid green;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.follower-container:hover {
+    background-color: aliceblue;
+    box-shadow: 0 2px 4px black;
+}
+
+.circular-image-follower {
+    width: 100%;
+    max-width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+
+.follower-name {
+    margin: 8px 0;
+  font-size: 14px;
+  color: #586069;
+}
